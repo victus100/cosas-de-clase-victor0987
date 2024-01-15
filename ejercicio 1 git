@@ -30,6 +30,8 @@ Capítulo 1: Introducción a Git
 Capítulo 2: Flujo de trabajo básico
 Capítulo 3: Repositorios remotos
 
+C:\Users\minec\Desktop\libro>type indice.txt
+
 C:\Users\minec\Desktop\libro>git status
 
 con esto se ve como sale el archivo que acabamos de crear en rojo
@@ -55,6 +57,8 @@ Capítulo 3: Gestión de ramas
 Capítulo 4: Repositorios remotos
        
 C:\Users\minec\Desktop\libro>git diff
+
+C:\Users\minec\Desktop\libro>git add indice.txt
 
 C:\Users\minec\Desktop\libro>git commit -m "añadido capitulo 3 sobre gestion de ramas"
 
