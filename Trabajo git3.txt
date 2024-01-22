@@ -1,0 +1,50 @@
+Ejercicio 1
+
+C:\Users\minec\Desktop\libro\capitulos>git branch bibliografia
+C:\Users\minec\Desktop\libro\capitulos>git branch
+
+ejercicio 2
+
+C:\Users\minec\Desktop\libro\capitulos>copy con capitulo4.txt
+C:\Users\minec\Desktop\libro\capitulos>git add capitulo 4
+C:\Users\minec\Desktop\libro\capitulos>git commit -m "capitulo 4 añadido"
+C:\Users\minec\Desktop\libro\capitulos>git log --oneline
+
+ejercicio 3
+
+C:\Users\minec\Desktop\libro\capitulos>git checkout bibliografia
+C:\Users\minec\Desktop\libro\capitulos>copy con bibliografia.txt
+Chacon, S. and Straub, B. Pro Git. Apress.
+C:\Users\minec\Desktop\libro\capitulos>git add bibliografia.txt
+C:\Users\minec\Desktop\libro\capitulos>git commit -m "añadida primera referencia bibliografica"
+C:\Users\minec\Desktop\libro\capitulos>git log --oneline
+
+ejercicio 4
+
+C:\Users\minec\Desktop\libro\capitulos>git merge bibliografia
+C:\Users\minec\Desktop\libro\capitulos>git log --oneline
+C:\Users\minec\Desktop\libro\capitulos>git branch -d bibliografia
+C:\Users\minec\Desktop\libro\capitulos>git log --oneline
+
+ejercicio 5
+
+C:\Users\minec\Desktop\libro\capitulos>git branch bibliografia
+C:\Users\minec\Desktop\libro\capitulos>git checkout bibliografia
+C:\Users\minec\Desktop\libro\capitulos>copy con bibliografia.txt
+Scott Chacon and Ben Straub. Pro Git. Apress.
+Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014)
+C:\Users\minec\Desktop\libro\capitulos>git commit -m "añadida nueva referencia bibliografica"
+C:\Users\minec\Desktop\libro\capitulos>git checkout master
+C:\Users\minec\Desktop\libro\capitulos>copy con bibliografia.txt
+Scott Chacon and Ben Straub. Pro Git. Apress.
+Loeliger, J. and McCullough, M. Version control with Git.
+O’Reilly.
+C:\Users\minec\Desktop\libro\capitulos>git commit -m "añadida nueva referencia bibliografica"
+C:\Users\minec\Desktop\libro\capitulos>git merge bibliografia
+C:\Users\minec\Desktop\libro\capitulos>copy con bibliografia.txt
+Chacon, S. and Straub, B. Pro Git. Apress.
+Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
+Hodson, R. Ry’s Git Tutorial. Smashwords (2014)
+C:\Users\minec\Desktop\libro\capitulos>git commit -m "resuelto el conflicto de bibliografia"
+C:\Users\minec\Desktop\libro\capitulos>git log --oneline
+
