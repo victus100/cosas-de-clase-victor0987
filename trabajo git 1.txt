@@ -1,0 +1,72 @@
+hola  amigos de la tecnologia
+veremos los comandos usados
+
+EJERCICIO 1
+
+C:\Users\minec>git config --global user.name "Victor Martinez"
+
+C:\Users\minec>git config --global user.email minecraftvictormartinez@gmail.com
+
+C:\Users\minec>git config --global color.ui auto
+
+EJERCICIO 2
+
+C:\Users\minec>cd desktop
+
+C:\Users\minec\Desktop>mkdir libro
+
+C:\Users\minec\Desktop>cd libro
+
+C:\Users\minec\Desktop\libro>git init
+
+C:\Users\minec\Desktop\libro>dir
+
+EJERCICIO 3
+
+C:\Users\minec\Desktop\libro>git status
+
+C:\Users\minec\Desktop\libro>copy con indice.txt
+Capítulo 1: Introducción a Git
+Capítulo 2: Flujo de trabajo básico
+Capítulo 3: Repositorios remotos
+
+C:\Users\minec\Desktop\libro>git status
+
+con esto se ve como sale el archivo que acabamos de crear en rojo
+
+C:\Users\minec\Desktop\libro>git add indice.txt
+
+C:\Users\minec\Desktop\libro>git status
+
+ahora sale en verde el documento
+
+EJERCICIO 4
+
+C:\Users\minec\Desktop\libro>git commit -m "este es el indice de mi documento de texto"
+
+C:\Users\minec\Desktop\libro>git status
+
+EJERCICIO 5
+
+C:\Users\minec\Desktop\libro>copy con indice.txt
+Capítulo 1: Introducción a Git
+Capítulo 2: Flujo de trabajo básico
+Capítulo 3: Gestión de ramas
+Capítulo 4: Repositorios remotos
+       
+C:\Users\minec\Desktop\libro>git diff
+
+C:\Users\minec\Desktop\libro>git commit -m "añadido capitulo 3 sobre gestion de ramas"
+
+EJERCICIO 6
+
+C:\Users\minec\Desktop\libro>git log
+(show sirve tambien creo)
+
+C:\Users\minec\Desktop\libro>git commit --amend -m "añadido capitulo 3 sobre gestion de ramas al indice"
+
+C:\Users\minec\Desktop\libro>git log
+
+
+
+        

@@ -1,0 +1,39 @@
+Ejercicio 1
+
+C:\Users\minec\Desktop\libro>git log
+
+C:\Users\minec\Desktop\libro\capitulos>copy con capitulo1.txt
+Git es un sistema de control de versiones ideado por Linus Torvalds.
+
+C:\Users\minec\Desktop\libro\capitulos>git add capitulo1.txt
+
+C:\Users\minec\Desktop\libro\capitulos>git log
+
+Ejercicio 2
+
+C:\Users\minec\Desktop\libro\capitulos>copy con capitulo2.txt
+El flujo de trabajo básico con Git consiste en: 1- Hacer cambios
+en el repositorio. 2- Añadir los cambios a la zona de
+intercambio temporal. 3- Hacer un commit de los cambios.
+
+C:\Users\minec\Desktop\libro\capitulos>git add capitulo2.txt
+C:\Users\minec\Desktop\libro>git commit -m "añadido capitulo 2"
+C:\Users\minec\Desktop\libro>git diff HEAD
+
+ejercicio 3
+
+C:\Users\minec\Desktop\libro>echo > capitulos/capitulo3.txt 
+Git permite la creación de ramas lo que permite
+tener distintas versiones del mismo proyecto y
+trabajar de manera simultanea en ellas.
+C:\Users\minec\Desktop\libro>git add .
+C:\Users\minec\Desktop\libro>git commit -m "añadido capitulo3"
+C:\Users\minec\Desktop\libro>git log
+
+ejercicio 4
+
+C:\Users\minec\Desktop\libro>echo "Capítulo 5: Conceptos avanzados" >> indice.txt
+C:\Users\minec\Desktop\libro>git add .
+C:\Users\minec\Desktop\libro>git commit -m "añadido capitulo 5 al indice"
+C:\Users\minec\Desktop\libro>git annotate indice.txt
+

@@ -1,0 +1,31 @@
+ejercicio 1
+
+C:\Users\minec\Desktop\mierda 2\lenguaje marcas\libro-git\libro-git>git remote -v
+
+ejercicio 2
+
+C:\Users\minec\Desktop\mierda 2\lenguaje marcas\libro-git\libro-git>git push
+
+ejercicio 3
+
+C:\Users\minec\Desktop\mierda 2\lenguaje marcas\libro-git\libro-git>git clone https://github.com/chugooo/Libro-git
+
+C:\Users\minec\Desktop\mierda 2\lenguaje marcas\libro-git\libro-git>copy con autores.txt
+chugo@gmail.com
+hugo
+
+C:\Users\minec\Desktop\mierda 2\lenguaje marcas\libro-git\libro-git>git commit -m "añadido autor"
+C:\Users\minec\Desktop\mierda 2\lenguaje marcas\libro-git\libro-git>git push
+
+ejercicio 4
+
+te metes al github y haces un fork
+git clone (el fork)
+git chackout -b autoria
+echo victor > autores.txt
+git push origin autoria
+git checkout autoria
+creas el documento con el copy con y luego haces un add luego un commit y luego un push y luego un pull para agarrar los cambios en el remoto
+
+
+

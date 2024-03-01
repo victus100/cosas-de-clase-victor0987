@@ -1,0 +1,42 @@
+ejercicio 1
+
+
+C:\Users\minec\Desktop\libro>notepad indice.txt
+C:\Users\minec\Desktop\libro>git status
+C:\Users\minec\Desktop\libro>git checkout -- indice.txt
+C:\Users\minec\Desktop\libro>git status
+
+ejercio 2 
+
+C:\Users\minec\Desktop\libro>notepad indice.txt
+C:\Users\minec\Desktop\libro>git add indice.txt
+C:\Users\minec\Desktop\libro>git status
+C:\Users\minec\Desktop\libro>git reset
+C:\Users\minec\Desktop\libro>git status
+C:\Users\minec\Desktop\libro>git checkout -- indice.txt
+C:\Users\minec\Desktop\libro>git status
+
+ejercicio 3
+
+C:\Users\minec\Desktop\libro>notepad indice.txt
+C:\Users\minec\Desktop\libro>del capitulos\capitulo3.txt
+C:\Users\minec\Desktop\libro>copy con capitulos\capitulo4.txt
+C:\Users\minec\Desktop\libro\capitulos>git add capitulo4.txt
+C:\Users\minec\Desktop\libro\capitulos>git status
+C:\Users\minec\Desktop\libro\capitulos>git reset
+C:\Users\minec\Desktop\libro\capitulos>git status
+C:\Users\minec\Desktop\libro\capitulos>git checkout -- capitulo4.txt
+C:\Users\minec\Desktop\libro\capitulos>git status
+
+ejercicio 4
+
+C:\Users\minec\Desktop\libro>notepad indice.txt
+C:\Users\minec\Desktop\libro>del capitulos\capitulo3.txt
+C:\Users\minec\Desktop\libro>git commit -m "borrado accidental"
+C:\Users\minec\Desktop\libro>git log
+C:\Users\minec\Desktop\libro>git reset --soft
+C:\Users\minec\Desktop\libro>git status
+C:\Users\minec\Desktop\libro>git commit -m "borrado accidental"
+C:\Users\minec\Desktop\libro>git reset --hard
+C:\Users\minec\Desktop\libro>git log
+C:\Users\minec\Desktop\libro>git status
